@@ -12,7 +12,7 @@ public class SolutionMenuUiCode : MonoBehaviour
     private void Start()
     {
         ResizePopup();
-        CloseButton.GetComponent<Animator>().keepAnimatorControllerStateOnDisable = true;
+        CloseButton.GetComponent<Animator>().keepAnimatorStateOnDisable = true;
         gameObject.SetActive(false);
     }
 
